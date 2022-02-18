@@ -18,3 +18,9 @@ C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\ob
 C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\obj\Debug\netcoreapp3.1\GamesHM1.dll
 C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\obj\Debug\netcoreapp3.1\GamesHM1.pdb
 C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\obj\Debug\netcoreapp3.1\GamesHM1.genruntimeconfig.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\bin\Debug\netcoreapp3.1\CoreBL.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\bin\Debug\netcoreapp3.1\CoreDAL.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\bin\Debug\netcoreapp3.1\CoreBL.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\bin\Debug\netcoreapp3.1\CoreDAL.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\GamesHM1\obj\Debug\netcoreapp3.1\GamesHM1.csproj.CopyComplete

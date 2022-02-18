@@ -1,10 +1,8 @@
-﻿using GamesHM1.Models;
+﻿using CoreBL;
+using GamesHM1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace GamesHM1.Controllers
 {
@@ -12,37 +10,47 @@ namespace GamesHM1.Controllers
     [Route("[controller]")]
     public class GamesController : ControllerBase
     {
-        private static List<Game> _games;
+        private readonly GameService _gameService;
         private readonly ILogger<GamesController> _logger;
-        static GamesController()
-        {
-            _games = new List<Game>();
-        }
-        public GamesController(ILogger<GamesController> logger)
+
+        public GamesController(ILogger<GamesController> logger, GameService gameService)
         {
             _logger = logger;
+            _gameService = gameService;
         }
 
-        [HttpPost]
+        [HttpPost("add")]
         public IActionResult AddGame(Game game)
         {
-            game.Id = Guid.NewGuid();
-            _games.Add(game);
+            if (game != null)
+            {
+                Guid createdGuid;
+                try
+                {
+                    createdGuid = _gameService.AddGame(game);
 
-            return Created(game.Id.ToString(), game);
+                    return Created(createdGuid.ToString(), game);
+                }
+                catch (ArgumentException ex)
+                {
+                    return BadRequest(ex.Message);
+                }
+            }
+
+            return BadRequest();
         }
 
-        [HttpGet]
+        [HttpGet("all")]
         public IActionResult GetAllGames()
         {
-            return Ok(_games);
+            return Ok(_gameService.GetAllGames());
         }
 
         [HttpGet("{id}")]
         public IActionResult GetGameById(Guid id)
         {
-            Game game = _games.FirstOrDefault(game => game.Id == id);
-            if(game != null)
+            Game game = _gameService.GetGameById(id);
+            if (game != null)
             {
                 return Ok(game);
             }
@@ -52,26 +60,26 @@ namespace GamesHM1.Controllers
         [HttpPut]
         public IActionResult UpdateGame(Game game)
         {
-            Game dbGame = _games.FirstOrDefault(c => c.Id == game.Id);
-            if(dbGame != null)
-            {
-                var index = _games.IndexOf(dbGame);
-                _games[index] = game;
-                return Ok(game);
-            }
-            return NotFound();
+            bool successed = _gameService.UpdateGame(game);
+            //if(successed)
+            //{
+            //    return Ok(game); 
+            //}
+            //return NotFound();
+            return StatusCode(successed ? 200 : 404);
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteGame(Guid id)
+        public IActionResult RemoveGame(Guid id)
         {
-            Game game = _games.FirstOrDefault(game => game.Id == id);
-            if(game != null)
-            {
-                _games.Remove(game);
-                return Ok(game);
-            }
-            return NotFound();
+            var game = _gameService.RemoveGame(id);
+            //if(game != null)
+            //{
+            //    _games.Remove(game);
+            //    return Ok(game);
+            //}
+            //return NotFound();
+            return StatusCode(game != null ? 200 : 400, game);
         }
     }
 }

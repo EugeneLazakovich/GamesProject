@@ -1,0 +1,12 @@
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\obj\Debug\netstandard2.0\CoreBL.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\obj\Debug\netstandard2.0\CoreBL.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\obj\Debug\netstandard2.0\CoreBL.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\obj\Debug\netstandard2.0\CoreBL.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\bin\Debug\netstandard2.0\CoreBL.deps.json
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\bin\Debug\netstandard2.0\CoreBL.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\bin\Debug\netstandard2.0\CoreBL.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\obj\Debug\netstandard2.0\CoreBL.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\obj\Debug\netstandard2.0\CoreBL.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\bin\Debug\netstandard2.0\CoreDAL.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\bin\Debug\netstandard2.0\CoreDAL.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreBL\obj\Debug\netstandard2.0\CoreBL.csproj.CopyComplete

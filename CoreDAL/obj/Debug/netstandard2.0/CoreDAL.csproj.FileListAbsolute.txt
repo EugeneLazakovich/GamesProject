@@ -1,0 +1,9 @@
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\bin\Debug\netstandard2.0\CoreDAL.deps.json
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\bin\Debug\netstandard2.0\CoreDAL.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\bin\Debug\netstandard2.0\CoreDAL.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\obj\Debug\netstandard2.0\CoreDAL.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\obj\Debug\netstandard2.0\CoreDAL.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\obj\Debug\netstandard2.0\CoreDAL.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\obj\Debug\netstandard2.0\CoreDAL.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\obj\Debug\netstandard2.0\CoreDAL.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDAL\obj\Debug\netstandard2.0\CoreDAL.pdb

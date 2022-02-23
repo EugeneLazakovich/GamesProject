@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[GamesGamers]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column GameId in table [dbo].[GamesGamers] is currently  INT NOT NULL but is being changed to 
+         UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+       The type for column GamerId in table [dbo].[GamesGamers] is currently  INT NOT NULL but is being changed to 
+         UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[GamesGamers] (Default Constraint)
+     Table rebuild
+       [dbo].[GamesGamers] (Table)
+
+** Supporting actions
+
+The type for column GameId in table [dbo].[GamesGamers] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The type for column GamerId in table [dbo].[GamesGamers] is currently  INT NOT NULL but is being changed to  UNIQUEIDENTIFIER NOT NULL. There is no implicit or explicit conversion.
+The project and target databases have different collation settings. Deployment errors might occur.
+

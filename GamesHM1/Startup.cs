@@ -32,13 +32,19 @@ namespace GamesHM1
         {
             services.AddScoped<GameService>();
             services.AddScoped<IGameRepository, GamesInDBRepository>();
+            services.AddScoped<UserService>();
+            services.AddScoped<IUserRepository, UsersInDBRepository>();
+            services.AddScoped<SaleService>();
+            services.AddScoped<ISaleRepository, SalesInDBRepository>();
 
             services.AddDbContext<EfCoreContext>(options
                 => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             var assemblies = new[]
             {
-               Assembly.GetAssembly(typeof(GamesProfile))
+               Assembly.GetAssembly(typeof(GamesProfile)),
+               Assembly.GetAssembly(typeof(UsersProfile)),
+               Assembly.GetAssembly(typeof(SalesProfile))
             };
 
             services.AddAutoMapper(assemblies);

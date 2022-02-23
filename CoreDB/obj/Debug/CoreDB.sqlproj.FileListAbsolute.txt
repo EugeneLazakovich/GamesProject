@@ -1,0 +1,10 @@
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\bin\Debug\CoreDB.dacpac
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\bin\Debug\CoreDB.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\bin\Debug\CoreDB.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\obj\Debug\CoreDB.dll
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\obj\Debug\CoreDB.pdb
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\obj\Debug\CoreDB.sqlprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\obj\Debug\Model.xml
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\obj\Debug\refactor.xml
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\obj\Debug\postdeploy.sql
+C:\Users\Пользователь\source\repos\NetCore_2022\GamesHM1\CoreDB\obj\Debug\predeploy.sql

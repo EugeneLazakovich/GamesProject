@@ -24,7 +24,8 @@ namespace GamesHM1.Controllers
 
         [HttpPost("add")]
         public IActionResult AddUser(User user)
-        {
+        {       
+            //Checking on null
             if (user != null)
             {
                 Guid createdGuid;
@@ -59,6 +60,7 @@ namespace GamesHM1.Controllers
             }
             return NotFound();
         }
+
 
         [HttpPut]
         public IActionResult UpdateUser(User user)

@@ -60,6 +60,7 @@ namespace GamesHM1.Controllers
             return NotFound();
         }
 
+
         [HttpPut]
         public IActionResult UpdateUser(User user)
         {
